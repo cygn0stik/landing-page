@@ -6,5 +6,8 @@ In this Odin project I will be creating an entire web page with 4 main sections 
 
 - [Link to the Assignment](https://www.theodinproject.com/lessons/foundations-landing-page)
 
+## progress
+My web page is mostly finished(altough it looks quite bad on mobile), I have to add flex wrap in a few places to create a responsive layout
+
 
 
