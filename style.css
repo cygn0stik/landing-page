@@ -1,10 +1,16 @@
 
+@font-face {
+  font-family: "Synonym";
+  src: url(Synonym-Variable.ttf);
+}
+
 body {
    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: black;
+    font-family: "Synonym";
     
    
   }
@@ -109,8 +115,9 @@ nav ul li a:hover {
 .hero-placeholder img {
   margin-right: 193px;
   padding-top: 70px;
-  widows: 900px;
-  height: 310px;
+  width: 900px;
+  height: 360px;
+  object-fit: cover;
   
 
 
@@ -137,4 +144,63 @@ nav ul li a:hover {
  }
 
 
+.header2 {
+  background-color: #ded8d3;
+  font-size: 36px;
+  font-weight: 900;
+  color: black;
+  text-align: center;
+  margin-top: 110px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  
+}
+
+.mid-section  {
+ display: flex;
+ justify-content: center;
+ gap: 32px;
+ background-color: #ded8d3;
+ padding-bottom: 220px;
  
+}
+
+
+
+.mid-section img {
+    max-width: 280px;
+    max-height: 190px;
+    border-radius: 20px;
+    object-fit: cover;
+
+    
+  }
+
+
+  .secondmid-section {
+    background-color: #918c86;
+    display: flex;
+    justify-content: center;
+    padding-top: 160px;
+    
+  }
+
+  .text {
+    padding-top: 9px;
+    
+  }
+
+  .quote {
+    font-size: 35px;
+    font-style: italic;
+    flex-wrap: wrap;
+    width: 1000px;
+
+  }
+
+  .author {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 200px;
+    margin-right: 75px;
+  }
