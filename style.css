@@ -21,9 +21,14 @@ body {
     font-size: 20px;
     color: beige;
     font-family: 'Synonym';
+    
      
 }
- 
+
+
+.navbar h1{
+  font-size: 25px;
+}
 
 .navbar {
   display: flex;
@@ -77,6 +82,7 @@ nav ul li a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
    
     
     
@@ -86,11 +92,12 @@ nav ul li a:hover {
 
 
 .hero-slogan h2 {
-   font-size: 45px;
+   font-size: 47px;
     width: 500px;
     color: beige;
     margin-top: 70px;
     margin-bottom: 0px;
+    
     
     
 
@@ -106,6 +113,7 @@ nav ul li a:hover {
     width: 400px;
     font-size: 25px;
     color: beige;
+    
     
     
     
@@ -145,9 +153,9 @@ nav ul li a:hover {
 
 
 .header2 {
-  background-color: #ded8d3;
+  background-color: beige;
   font-size: 36px;
-  font-weight: 900;
+  font-weight: bold;
   color: black;
   text-align: center;
   margin-top: 110px;
@@ -160,8 +168,9 @@ nav ul li a:hover {
  display: flex;
  justify-content: center;
  gap: 32px;
- background-color: #ded8d3;
+ background-color: beige;
  padding-bottom: 220px;
+ flex-wrap: wrap;
  
 }
 
@@ -172,13 +181,14 @@ nav ul li a:hover {
     max-height: 190px;
     border-radius: 20px;
     object-fit: cover;
+    
 
     
   }
 
 
   .secondmid-section {
-    background-color: #918c86;
+    background-color: #ded8d3;
     display: flex;
     justify-content: center;
     padding-top: 160px;
@@ -191,7 +201,7 @@ nav ul li a:hover {
   }
 
   .quote {
-    font-size: 35px;
+    font-size: 37px;
     font-style: italic;
     flex-wrap: wrap;
     width: 1000px;
@@ -204,3 +214,70 @@ nav ul li a:hover {
     padding-bottom: 200px;
     margin-right: 75px;
   }
+
+
+  .bot-section {
+    margin: 100px;
+    
+    
+    
+    
+    
+  }
+
+ .cta-container {
+  background-color: black;
+  color: beige;
+  border: 3px solid beige;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 85px;
+  margin-right: 85px;
+  border-radius: 12px;
+  padding: 35px;
+ }
+
+
+
+h3 {
+  padding: 0px;
+  margin: 0px;
+  
+}
+
+
+.cta-text{
+  padding: 0px;
+  margin: 0px;
+}
+
+
+  .bot-section button {
+  background-color: beige;
+  font-size: 20px;
+  border-style: none;
+  width: 150px;
+  height: 40px;
+  color: black;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  }
+
+  .bot-section button:hover {
+    color: beige;
+    background-color: #E3735E;
+
+  }
+
+
+  .footer {
+    background-color: beige;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-top: auto;
+}
