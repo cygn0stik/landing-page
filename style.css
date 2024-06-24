@@ -3,19 +3,19 @@ body {
    
     margin: 0;
     padding: 0;
-    background: black;
+    box-sizing: border-box;
+    background-color: black;
     
-    
+   
   }
 
 
 
-.container {
+.head-container {
     font-size: 20px;
     color: beige;
     font-family: 'Synonym';
-    
-  
+     
 }
  
 
@@ -26,18 +26,20 @@ body {
   width: 80%;
   margin: 0 auto;
  
+ 
 
 }
 
 
 .navbar ul {
   display: flex;
-  gap: 25px;
+  gap: 45px;
+  font-size: larger;
  
 }
 
  
-.container .navbar {
+.head-container .navbar {
   justify-content: space-between;
 }
 
@@ -56,30 +58,34 @@ body {
 }
 
 nav ul li a:hover {
-  color: rosybrown;
+  color: #E3735E;
 }
 
 
 
-.head {
-  
-}
 
 
+.hero-section {
 
-.slogan  {
-    margin-left: 143px;
+    margin-left: 193px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+   
+    
     
 
   }
 
 
 
-  .slogan h2 {
-    width: 300px;
+.hero-slogan h2 {
+   font-size: 45px;
+    width: 500px;
     color: beige;
+    margin-top: 70px;
+    margin-bottom: 0px;
+    
     
 
 
@@ -87,15 +93,48 @@ nav ul li a:hover {
 
 
 
-  .slogan p
-{
-    
+.hero-slogan p {
+
     display: flex;
     flex-wrap: wrap;
-    width: 350px;
+    width: 400px;
     font-size: 25px;
     color: beige;
     
     
+    
 }
 
+
+.hero-placeholder img {
+  margin-right: 193px;
+  padding-top: 70px;
+  widows: 900px;
+  height: 310px;
+  
+
+
+}
+
+ button{
+  background: beige;
+  font-size: 20px;
+  border-style: none;
+  width: 150px;
+  height: 40px;
+  color:black;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+  
+  
+ }
+
+ button:hover {
+  color: beige;
+  background-color: #E3735E;
+ }
+
+
+ 
